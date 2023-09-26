@@ -247,10 +247,20 @@ font-weight: 600
         padding: 15px;
     }
 }
-@media(max-width:380px){
+@media(max-width:390px){
     .inf__blogs{
         display: flex;
         column-gap: 24px;
+    }
+}
+@media (max-width:685px) {
+    .no{
+        padding-bottom: 730px;
+    }
+}
+@media (max-width:575px) {
+    .no{
+        padding-bottom: 800px;
     }
 }
 @media (max-width:1200px) {
@@ -260,6 +270,16 @@ font-weight: 600
     }
     header{
         padding-left: 15px;
+    }
+}
+@media (max-width:382px) {
+    .no{
+        padding-bottom: 871px;
+    }
+}
+@media (max-width:375px) {
+    .no{
+        padding-bottom: 941px;
     }
 }
 html {
