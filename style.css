@@ -9,9 +9,11 @@ body{
     background-color: #101828;
 }
 .header__img{
-    background-image: url(https://www.hse.ru/data/2020/08/03/1601403672/3n1.png);
+    background-image: url(./images/Technology.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 70px;
 }
 header{
     max-width: 1100px;
@@ -19,12 +21,23 @@ header{
     padding-bottom: 67px;
 }
 .header__nav{
-    padding-top: 27px;
+    padding-right: 100px;
+    padding-left: 110px;
+    /* background-color: #101828; */
+    position: fixed;
+    padding-top: 7px;
     align-items: center;
+    margin: 0 auto;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #101828;
+    box-shadow: 5px 7px 10px #101828;
 }
 .header__nav .nav__logo{
     max-width: 100px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 .header__nav ul li {
     display: inline-block;
@@ -43,13 +56,14 @@ letter-spacing: 0.72px;
 .header__nav ul{
     float: right;
     margin-right: 100px;
+    
 }
 .checkbtn{
     font-size: 30px;
     color: white;
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 20px;
     cursor: pointer;
     display: none;
 }
@@ -78,8 +92,9 @@ letter-spacing: 0.72px;
 }
 .header__inf{
     display: flex;
-    margin-top: 80px;
+    padding-top: 200px;
     justify-content: space-between;
+    align-items: center;
 }
 .sec1__p1{
     color: #98A2B3;
@@ -138,7 +153,7 @@ font-family: Poppins;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
-margin-top: 100px;
+padding-top: 100px;
 text-align: center;
 }
 section{
@@ -170,7 +185,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 600
 }
-@media (max-width:954px){
+@media (max-width:996px){
     .header__nav ul li a{
         font-size: 16px;
     }
@@ -178,7 +193,7 @@ font-weight: 600
         margin-right: 20px;
     }
 }
-@media (max-width:836px){
+@media (max-width:865px){
     .checkbtn{
         display: block;
     }
@@ -206,7 +221,7 @@ font-weight: 600
     }
     .header__inf{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         justify-content: center
     }
     h1{
@@ -228,6 +243,15 @@ font-weight: 600
     .inf__blogs{
         display: flex;
         column-gap: 24px;
+    }
+}
+@media (max-width:1200px) {
+    .header__nav{
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    header{
+        padding-left: 15px;
     }
 }
 html {
