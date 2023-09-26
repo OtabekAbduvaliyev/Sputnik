@@ -8,22 +8,31 @@
 body{
     background-color: #101828;
 }
+.no{
+    background-color: black;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
 .header__img{
+    opacity: 0.9;
     background-image: url(./images/Technology.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 70px;
+    background-position: top center;
+    padding-bottom: 36px;
+    /* z-index: -10; */
 }
 header{
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     padding-bottom: 67px;
 }
 .header__nav{
     padding-right: 100px;
-    padding-left: 110px;
-    /* background-color: #101828; */
+    padding-left: 70px;
     position: fixed;
     padding-top: 7px;
     align-items: center;
@@ -33,7 +42,6 @@ header{
     top: 0;
     width: 100%;
     background-color: #101828;
-    box-shadow: 5px 7px 10px #101828;
 }
 .header__nav .nav__logo{
     max-width: 100px;
@@ -83,7 +91,7 @@ letter-spacing: 0.72px;
     color: white;
 }
 .header__nav ul li a:hover{
-    color: #91c95c;
+    color: #24b1b1;
 }
 .header__inf__sec2 video{
   max-width: 400px;
