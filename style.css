@@ -113,10 +113,11 @@ font-weight: 700;
 line-height: 36px; /* 104% */
 }
 h1{
-    background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+    /* background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    color: cyan;
     font-family: Poppins;
     font-size: 58px;
     font-style: normal;
