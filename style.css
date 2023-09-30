@@ -235,6 +235,10 @@ main ul li a:hover{
     column-gap: 10px;
     row-gap: 20px;
 }
+footer{
+    max-width: 1400px;
+    margin: auto;
+}
 .joylashuv__inf{
     display: flex;
     margin-top: 50px;
@@ -251,7 +255,7 @@ main ul li a:hover{
     font-weight: 700;
     padding-top: 100px;
 }
-.joylashuv__inf2{
+.joylashuv__inf2 P{
     font-size: 22px;
     font-family: Poppins;
 }
